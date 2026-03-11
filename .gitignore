@@ -1,0 +1,13 @@
+# Archivos locales de Terraform (nunca al repo)
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfplan
+
+# Variables con secretos locales (usar TFE para esto)
+*.auto.tfvars
+
+# OS
+.DS_Store
+Thumbs.db
