@@ -1,14 +1,11 @@
 output "resource_group_name" {
-  description = "Nombre del Resource Group creado"
-  value       = module.resource_group.name
+  value = module.resource_group.name
 }
 
-output "storage_account_name" {
-  description = "Nombre de la Storage Account creada"
-  value       = module.storage_account.name
+output "virtual_network_name" {
+  value = module.virtual_network.name
 }
 
-output "storage_account_id" {
-  description = "ID de la Storage Account"
-  value       = module.storage_account.id
+output "virtual_network_address_space" {
+  value = module.virtual_network.address_space
 }
