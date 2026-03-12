@@ -3,7 +3,7 @@
 # ============================================================
 
 environment          = "dev"
-location             = "West Europe"
+location             = "northeurope"
 storage_account_tier = "Standard"
 
 # subscription_id se configura como variable sensible en TFE
