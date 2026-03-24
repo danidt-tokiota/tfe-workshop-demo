@@ -7,5 +7,6 @@ locals {
     project     = var.project
     managed_by  = "terraform"
     team        = "cloud-infrastructure"
+    demo        = "tokiworkshop"
   }
 }
