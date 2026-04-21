@@ -8,6 +8,5 @@ locals {
     managed_by  = "terraform"
     team        = "cloud-infrastructure"
     demo        = "tokiworkshop"
-    Owner       = "Dani"
   }
 }
